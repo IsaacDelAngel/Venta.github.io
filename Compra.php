@@ -67,7 +67,7 @@ echo <<<_END
 Ingrese los datos para concretar la compra.
 </div>
 <div data-role='fieldcontain'>
-<label>Tarjeta</label>
+<label>Tarjeta de credito</label>
 <input type='text' maxlength='16' name='tarjeta' value='$user'
 onBlur='checkUser(this)'>
 <div>&nbsp;</div>

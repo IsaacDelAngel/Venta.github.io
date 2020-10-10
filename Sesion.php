@@ -8,7 +8,7 @@ if (isset($_POST['user']))
     $pass = sanitizeString($_POST['pass']);
 
     if($user == "" || $pass == "")
-     $error = 'No se han llenado todos los campos';
+     $error = 'No se han llenado todos los campos.';
     else
     {
         $result= queryMySQL("SELECT user, pass FROM members

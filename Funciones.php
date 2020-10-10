@@ -50,7 +50,7 @@ function sanitizeString($var)
        "El usuario '$user' es incorrecto</span> ";
 
        else
-         echo "<center><span>&nbsp;&#x2714; ". 
+         echo "<center> <span>&nbsp;&#x2714; ". 
          "El nombre '$user' correcto</span></center>";
 
    }

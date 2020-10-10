@@ -22,7 +22,7 @@ createTable('messages',
              INDEX(auth(6)),
              INDEX(recip(6))');
              
-createTable('Pago', 
+createTable('Pagos', 
              'tarjeta VARCHAR(16),
              clave VARCHAR(16),
              pais VARCHAR(16),

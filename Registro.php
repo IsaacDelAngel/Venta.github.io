@@ -30,7 +30,7 @@ if (isset($_POST['user'])){
         $result = queryMysql("SELECT * FROM members WHERE user='$user'");
 
         if ($result->num_rows)
-        $error = 'El nombre ya esta en uso <br><br>';
+        $error = 'El nombre ya esta en uso. <br><br>';
         else{
             queryMysql("INSERT INTO members VALUES('$user','$pass')");
             die('<center><div class="text"><h4>Cuenta creada</h4><a href="Posters.php">Por favor haga clic aqui </a></div></center>');
