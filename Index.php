@@ -9,7 +9,7 @@ echo<<< _END
     <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="Vstiles.css">
-    <title>New Lunar Abyss </title>
+    <title>...New Lunar Abyss...</title>
 </head>
 <body background="Abyss.png" id='img'>
 <script src="javascript.js"></script>
