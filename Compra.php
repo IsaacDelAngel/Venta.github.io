@@ -54,7 +54,7 @@ if (isset($_POST['user'])){
         $error = 'No existe <br><br>';
         else{
             queryMysql("INSERT INTO Pago VALUES('$user','$pass')");
-            die('<center><div class="text"><h4>Pago relaizado</h4><a href="Posters.php">Por favor haga clic aqui </a></div></center>');
+            die('<center><div class="text"><h4>Pago relaizado.</h4><a href="Posters.php">Por favor haga clic aqui </a></div></center>');
 
         }
     }
