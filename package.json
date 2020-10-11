@@ -1,0 +1,17 @@
+{
+  "name": "venta.github.io",
+  "version": "1.0.0",
+  "description": "Venta de posters",
+  "main": "javascript1.js",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "jquery-mobile": "^1.5.0-alpha.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "author": "Isaac",
+  "license": "ISC"
+}

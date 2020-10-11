@@ -47,7 +47,7 @@ function sanitizeString($var)
 
        if ($result->num_rows)
        echo "<span class= 'error' >&nbspx2718;" .
-       "El usuario '$user' es incorrecto</span> ";
+       "El usuario '$user' es incorrecto.</span> ";
 
        else
          echo "<center> <span>&nbsp;&#x2714; ". 
